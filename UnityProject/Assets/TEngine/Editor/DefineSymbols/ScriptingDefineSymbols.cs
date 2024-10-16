@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using UnityEditor;
+using UnityEditor.Build;
 
 namespace TEngine.Editor
 {
@@ -104,7 +105,8 @@ namespace TEngine.Editor
             {
                 return;
             }
-
+            
+        
             foreach (BuildTargetGroup buildTargetGroup in BuildTargetGroups)
             {
                 AddScriptingDefineSymbol(buildTargetGroup, scriptingDefineSymbol);

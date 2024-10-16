@@ -20,7 +20,7 @@ namespace TEngine.Localization
 				bool changed = mInstance==null;
 
 				if (mInstance==null)
-					mInstance = (ResourceManager)FindObjectOfType(typeof(ResourceManager));
+					mInstance = (ResourceManager)FindFirstObjectByType(typeof(ResourceManager));
 
 				if (mInstance==null)
 				{
@@ -33,7 +33,7 @@ namespace TEngine.Localization
 				}
 
 				if (changed && Application.isPlaying)
-					DontDestroyOnLoad(mInstance.gameObject);
+					DontDestroyOnLoad(mInstance.gameObject); 
 
 				return mInstance;
 			}
