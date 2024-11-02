@@ -21,7 +21,8 @@ public partial class GameApp : Singleton<GameApp>
     /// </summary>
     private void InitSystemSetting()
     {
-
+        //加载配置文件   
+        ConfigSystem.Instance.Load();
     }
 
     /// <summary>

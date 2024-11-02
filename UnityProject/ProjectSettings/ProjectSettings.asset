@@ -772,7 +772,7 @@ PlayerSettings:
     PS5: TextMeshPro
     QNX: TextMeshPro
     ReservedCFE: TextMeshPro
-    Standalone: ODIN_INSPECTOR;ODIN_INSPECTOR_3;ODIN_INSPECTOR_3_1;ODIN_VALIDATOR;ODIN_VALIDATOR_3_1;ENABLE_LOG;TextMeshPro
+    Standalone: ODIN_INSPECTOR;ODIN_INSPECTOR_3;ODIN_INSPECTOR_3_1;ODIN_VALIDATOR;ODIN_VALIDATOR_3_1;ENABLE_LOG;TextMeshPro;UNITASK_DOTWEEN_SUPPORT
     VisionOS: TextMeshPro
     WebGL: ENABLE_LOG;TextMeshPro
     Windows Store Apps: ENABLE_LOG
@@ -876,7 +876,7 @@ PlayerSettings:
   qnxGraphicConfPath: 
   apiCompatibilityLevel: 3
   captureStartupLogs: {}
-  activeInputHandler: 0
+  activeInputHandler: 2
   windowsGamepadBackendHint: 0
   cloudProjectId: 
   framebufferDepthMemorylessMode: 0
