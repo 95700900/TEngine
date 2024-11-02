@@ -110,7 +110,7 @@ namespace TEngine.Localization
 			EnablePluginsOnPlatform(BuildTargetGroup.iOS);
 		}
 
-		static void EnablePluginsOnPlatform( BuildTargetGroup Platform )
+		static void EnablePluginsOnPlatform(BuildTargetGroup Platform)
 		{
 			string Settings = PlayerSettings.GetScriptingDefineSymbolsForGroup(Platform );
 			
